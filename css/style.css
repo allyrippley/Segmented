@@ -1,0 +1,262 @@
+#doc3 {
+    margin:0;
+    padding: 0;
+}
+
+a {
+    color: #CF0303;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html {
+    background-color: #dfdfdf;
+    color: #333;
+}
+
+body {
+    font-size:12px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 18px;
+}
+
+#hd {
+    height: 90px;
+    background-color: #E73C3C;
+    border-bottom: 1px solid #CF0303;
+}
+
+h1 {
+    font-size: 300%;
+    line-height: 18px;
+}
+
+h2 {
+    font-size: 200%;
+    line-height: 18px;
+}
+
+.header-text {
+    text-align: center;
+    padding-top: 36px;
+    color: #333;
+}
+
+.content-table {
+    width: 700px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content-header {
+    padding-bottom: 9px;
+    border-bottom: 1px solid #aaa;
+}
+
+.content-table-b {
+    padding: 25px;
+}
+
+.content-table-data ul {
+    padding-bottom: 10px;
+}
+
+.content-table-data ul li{
+    padding-bottom: 2px;
+}
+
+.table-header {
+    margin-bottom: 9px;
+    text-align: left;
+}
+
+#hor-minimalist-b
+{
+    font-size: 12px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #777;
+}
+
+#hor-minimalist-b th
+{
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 8px;
+    border-bottom: 1px solid #777;
+    text-align: center;
+    background-color: #CF0303;
+}
+#hor-minimalist-b td
+{
+    color: #333;
+    padding: 6px 8px;
+    border-bottom:1px dotted #777;
+}
+#hor-minimalist-b tbody tr:hover td
+{
+    color: #555;
+}
+
+/* button 
+---------------------------------------------- */
+.button {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin: 0 2px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em; 
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+    text-decoration: none;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.bigrounded {
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+.medium {
+    font-size: 12px;
+    padding: .4em 1.5em .42em;
+}
+.small {
+    font-size: 11px;
+    padding: .2em 1em .275em;
+}
+
+/* blue */
+.blue {
+    color: #d9eef7;
+    border: solid 1px #0076a3;
+    background: #0095cd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+    background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.blue:hover {
+    background: #007ead;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+    background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+    color: #80bed6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+    background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+/* white */
+.white {
+    color: #606060;
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top,  #fff,  #ededed);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+    background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+    color: #999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+    background: -moz-linear-gradient(top,  #ededed,  #fff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+
+
+
+.action {
+    margin-top: 20px;
+}
+
+.action a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.action ul li {
+    display: inline-block;
+}
+
+form input {
+    width: 99%;
+    height: 30px;
+}
+
+#link-div ul{
+    padding-bottom: 10px;
+}
+
+#link-div ul li{
+    padding-bottom: 3px;
+}
+
+
+#article-block-div ul li {
+    width: 10%;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.report-date-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.report-date-div ul {
+    width: 50%;
+}
+
+.report-date-div ul li {
+    display: block;
+    width: 30%;;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.menu {
+    padding-right: 10px;
+    text-align: right;
+
+}
+
+.error-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 10px;
+}
+
+.article-table-div {
+    margin-bottom: 10px;
+}
